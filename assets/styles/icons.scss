@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'mznIcons';
+  src:  url('/fonts/mznIcons.eot?vzw9l9');
+  src:  url('/fonts/mznIcons.eot?vzw9l9#iefix') format('embedded-opentype'),
+  url('/fonts/mznIcons.ttf?vzw9l9') format('truetype'),
+  url('/fonts/mznIcons.woff?vzw9l9') format('woff'),
+  url('/fonts/mznIcons.svg?vzw9l9#mznIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mznIcon-"], [class*=" mznIcon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mznIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mznIcon-arrow-drop-down:before {
+  content: "\e91c";
+}
+.mznIcon-arrow-back:before {
+  content: "\e91d";
+}
+.mznIcon-arrow-bottom-right:before {
+  content: "\e900";
+}
+.mznIcon-arrow-down:before {
+  content: "\e901";
+}
+.mznIcon-arrow-top-right:before {
+  content: "\e902";
+}
+.mznIcon-arrow-up:before {
+  content: "\e903";
+}
+.mznIcon-book:before {
+  content: "\e904";
+}
+.mznIcon-checkbox-blank-outline:before {
+  content: "\e905";
+}
+.mznIcon-checkbox-marked:before {
+  content: "\e906";
+}
+.mznIcon-chevron-left:before {
+  content: "\e907";
+}
+.mznIcon-chevron-right:before {
+  content: "\e908";
+}
+.mznIcon-close-circle:before {
+  content: "\e909";
+}
+.mznIcon-donut_small:before {
+  content: "\e90a";
+}
+.mznIcon-heart:before {
+  content: "\e90b";
+}
+.mznIcon-heart-outline:before {
+  content: "\e90c";
+}
+.mznIcon-image:before {
+  content: "\e90d";
+}
+.mznIcon-information:before {
+  content: "\e90e";
+}
+.mznIcon-lendi:before {
+  content: "\e90f";
+}
+.mznIcon-live-help:before {
+  content: "\e910";
+}
+.mznIcon-local-library:before {
+  content: "\e911";
+}
+.mznIcon-magnify:before {
+  content: "\e912";
+}
+.mznIcon-map-marker:before {
+  content: "\e913";
+}
+.mznIcon-menu:before {
+  content: "\e914";
+}
+.mznIcon-phone:before {
+  content: "\e915";
+}
+.mznIcon-pie-chart:before {
+  content: "\e916";
+}
+.mznIcon-play-circle:before {
+  content: "\e917";
+}
+.mznIcon-radiobox-blank:before {
+  content: "\e918";
+}
+.mznIcon-radiobox-marked:before {
+  content: "\e919";
+}
+.mznIcon-rotate-orbit:before {
+  content: "\e91a";
+}
+.mznIcon-sort-variant:before {
+  content: "\e91b";
+}

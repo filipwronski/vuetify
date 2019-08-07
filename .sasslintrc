@@ -1,0 +1,170 @@
+options:
+  formatter: stylish
+  merge-default-rules: true
+files:
+  include: assets/scss/**/*.s+(a|c)ss
+  ignore:
+  - sass/vendor/**/*.*
+rules:
+  attribute-quotes: true
+  bem-depth:
+    max-depth: 5
+  border-zero:
+    convention: 0
+  brace-style:
+    style: 1tbs
+    allow-single-line: false
+    class-name-format:
+      allow-leading-underscore: false
+      convention: hyphenatedlowercase
+    clean-import-paths:
+      leading-underscore: true
+      filename-extension: true
+    declarations-before-nesting: true
+    empty-args: true
+    empty-line-between-blocks:
+      include: true
+      allow-single-line-rulesets: true
+    extends-before-declarations: true
+    extends-before-mixins: true
+    final-newline:
+      include: true
+    force-attribute-nesting: true
+    force-element-nesting: true
+    force-pseudo-nesting: true
+    function-name-format:
+      allow-leading-underscore: true
+      convention: hyphenatedlowercase
+      convention-explanation: true
+    hex-length:
+      style: short
+    hex-notation:
+      style: uppercase
+    id-name-format:
+      allow-leading-underscore: true
+      convention: hyphenatedlowercase
+      convention-explanation: true
+    indentation:
+      size: 2
+    leading-zero: true
+    max-file-line-count:
+      length: 40
+    max-line-length:
+      length: 120
+    mixin-name-format:
+      allow-leading-underscore: true
+      convention: hyphenatedlowercase
+      mixins-before-declarations:
+        exclude:
+        - breakpoint
+        - mq
+    mixins-before-declarations:
+      exclude:
+      - breakpoint
+      - mq
+    nesting-depth:
+      max-depth: 1
+    no-attribute-selectors: true
+    no-color-hex: true
+    no-color-keywords: false
+    no-color-literals:
+      allow-map-identifiers: true
+      allow-rgba: false
+      allow-variable-identifiers: true
+    no-combinators: true
+    no-css-comments: false
+    no-debug: true
+    no-disallowed-properties: false
+    no-duplicate-properties: false
+    no-empty-rulesets: true
+    no-ids: true
+    no-important: true
+    no-invalid-hex: true
+    no-mergeable-selectors: false
+    no-misspelled-properties: true
+    no-qualifying-elements:
+      allow-element-with-attribute: true
+      allow-element-with-class: true
+      allow-element-with-id: true
+    no-trailing-whitespace: true
+    no-trailing-zero: true
+    no-transition-all: true
+    no-universal-selectors: true
+    no-url-domains: true
+    no-url-protocols: true
+    no-vendor-prefixes: true
+    no-warn: true
+    one-declaration-per-line: true
+    placeholder-in-extend: true
+    placeholder-name-format:
+      allow-leading-underscore: true
+      convention: hyphenatedlowercase
+      convention-explanation: true
+    property-sort-order:
+      order: alphabetical
+      ignore-custom-properties: true
+    property-units:
+      global:
+      - em
+      - px
+      - rem
+      per-property:
+        width:
+        - rem
+        - px
+        height:
+        - rem
+        - px
+    pseudo-element: true
+    quotes: true
+    shorthand-values: false
+    single-line-per-selector: true
+    space-after-bang: true
+    space-after-colon: true
+    space-after-comma: true
+    space-around-operator:
+      include: true
+    space-before-bang: true
+    space-before-brace: true
+    space-before-colon: true
+    space-between-parens: true
+    trailing-semicolon: true
+    url-quotes: true
+    variable-for-property:
+      properties: []
+      allow-map-get: true
+      allowed-functions: []
+    variable-name-format:
+      allow-leading-underscore: true
+      convention: hyphenatedlowercase
+    zero-unit:
+      include: true
+  extends-before-mixins: 2
+  extends-before-declarations: 2
+  placeholder-in-extend: 2
+  mixins-before-declarations:
+  - 2
+  - exclude:
+    - breakpoint
+    - mq
+  no-warn: 1
+  no-debug: 1
+  no-ids: 2
+  no-important: 2
+  hex-notation:
+  - 2
+  - style: uppercase
+  indentation:
+  - 2
+  - size: 2
+  property-sort-order:
+  - 1
+  - order:
+    - display
+    - margin
+    ignore-custom-properties: true
+  variable-for-property:
+  - 2
+  - properties:
+    - margin
+    - content

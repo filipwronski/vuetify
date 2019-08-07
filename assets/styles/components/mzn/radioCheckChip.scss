@@ -1,0 +1,59 @@
+.v-input--radio-group--row {
+	.mzn-radio-button {
+		margin: 0;
+		position: relative;
+	}
+}
+
+.v-input--selection-controls.v-input {
+.mzn-radio-button,
+&.mzn-checkbox {
+    .v-label {
+		@include border-radius($btn-radius);
+		background-color: $snow;
+		border: $btn-border-width solid $gray-2;
+		margin: 0 8px 9px 0;
+		padding: 8px 8px 6px 35px;
+		height: 40px;
+		color: inherit;
+    }
+
+    .v-input--selection-controls__input {
+		margin-top: -5px;
+		left: 10px;
+		position: absolute;
+		z-index: 1;
+    }
+
+    .v-icon {
+		font-size: 24px;
+		margin-left: -2px;
+		color: $gray-2;
+    }
+    &.accent--text,
+		&.v-input--is-label-active {
+		.v-label,
+		.v-icon {
+			color: $brand-blue;
+			border-color: $brand-blue;
+		}
+	}
+}
+
+	&.mzn-checkbox {
+		.v-input__slot {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.mzn-checkbox-group {
+  	display: flex;
+
+	&--row {
+		margin-top: 16px;
+		padding-top: 4px;
+		-webkit-flex-flow: wrap row;
+		flex-flow: wrap row;
+	}
+}

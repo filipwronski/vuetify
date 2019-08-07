@@ -1,0 +1,16 @@
+@import '~/assets/styles/icons.scss';
+@import '~/assets/styles/buttons.scss';
+
+.theme--light.v-application{
+    background: #fff !important;
+    color: #00042e !important;
+    // font-family: 'Fira Sans';
+    .grey {
+        &.lighten-6 {
+            background-color: $gray-2 !important;
+        }
+    }
+    .accent--text {
+        color: $brand-blue !important
+    }
+}

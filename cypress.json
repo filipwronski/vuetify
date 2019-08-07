@@ -1,0 +1,13 @@
+{
+  "viewportHeight": 640,
+  "viewportWidth": 360,
+  "integrationFolder": "tests/cypress/integration",
+  "screenshotsFolder": "tests/cypress/screenshots",
+  "supportFile": "tests/cypress/support/index.js",
+  "pluginsFile": "tests/cypress/plugins/index.js",
+  "videosFolder": "tests/cypress/videos",
+  "fixturesFolder": "tests/cypress/fixtures",
+  "defaultCommandTimeout": 40000,
+  "watchForFileChanges": false,
+  "numTestsKeptInMemory": 10
+}

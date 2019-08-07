@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise",
+      "es2015.iterable",
+      "es2016",
+      "es2017"
+    ],
+    "module": "esNext",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "strictFunctionTypes": false,
+    "allowJs": true,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "keyofStringsOnly": true,
+    "esModuleInterop": true,
+    "types": [
+      "vue-apollo",
+      "jest",
+      "mocha",
+      "node",
+      "@nuxt/vue-app"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    }
+  }
+}
